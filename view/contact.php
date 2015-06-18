@@ -11,6 +11,15 @@ include('included/header.php');
 <div class="container">
 
 
+<div class="row">
+<ol class="breadcrumb">
+<li class="active" style="font-weight:300;">YOU ARE HERE</li>
+  <li><a href="home">Home</a></li>
+  <li>Contact</li>
+</ol>
+</div><!-- row -->
+<div class="clear" style="height:40px;"></div>
+
 <h1>Contact</h1>
 
 <div class="clear" style="height:40px;"></div>

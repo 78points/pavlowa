@@ -11,7 +11,7 @@ $var1 = 'Sample Variable';
    $params = explode("/", $request);
 
 
-  $safe_pages = array("home", "contact" );
+  $safe_pages = array("home", "contact", "theme" );
    
   if(in_array($params[0], $safe_pages)) {
     include('view/'.$params[0].".php");

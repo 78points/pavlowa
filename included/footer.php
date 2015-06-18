@@ -13,6 +13,10 @@
 </div><!-- footer -->
 
 
+</div><!-- main_container -->
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
 !window.jQuery && document.write('<script src="<?php echo $mainUrl;?>/js/jquery-1.11.2.min.js"><\/script>');
@@ -30,7 +34,7 @@ timeToHide:1,
 
 zIndex:"999",
 spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-bgColor:"#918d7c",
+bgColor:"#333",
 // imagePath:"customizedImage.gif" 
 
 });

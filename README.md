@@ -3,6 +3,12 @@
 Starter HTML boilerplate application for web development with Bootstrap, Font Awesome and pretty URLs
 
 
+## Features
+
+
+## Instalation
+
+
 MIT License http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Pawel Jankowski,  [78points.com](http://78points.com/)
