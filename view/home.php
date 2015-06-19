@@ -1,11 +1,7 @@
 <?php
-
 $home = true;
-
 include('included/header.php');
 ?>
-
-
 
 
 <div class="container">
@@ -15,8 +11,6 @@ include('included/header.php');
 <ol class="breadcrumb">
   <li>Home</li>
 </ol>
-
-
 
 
 

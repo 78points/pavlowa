@@ -1,7 +1,5 @@
 <?php
-
 $contact = true;
-
 include('included/header.php');
 ?>
 
@@ -25,7 +23,7 @@ include('included/header.php');
 
 <div class="col-sm-6">
 
- <div id="alert1">
+ <div id="alert">
    <div id="zoneSub" class="error"></div>
  </div>
 
@@ -190,8 +188,7 @@ $(document).ready( function() {
     $("#form").submit(function () {
             $.post("included/subscribe.php",$("#form").serialize(),function(texte){
 var texte = jQuery.parseJSON(texte);
-//$("div#zoneSubFooter").append(texte);
-$('#alert1').show();
+$('#alert').show();
 if(texte=="saved"){
 
 document.getElementById('zoneSub').innerHTML='<div class="alert alert-success" role="alert">Thank you for your message.</div>';
@@ -212,7 +209,7 @@ return false; // ne change pas de page
 });
 
 $(document).ready(function() {
-$('#alert1').hide();
+$('#alert').hide();
 });
 
 
