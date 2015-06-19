@@ -50,10 +50,10 @@ This is how you can set current menu item to active state:
 
 ```php
 
-      <ul class="nav navbar-nav">
-        <li class="<?php if (isset($home)){ echo 'active';} ?>"><a href="home">Home</a></li>
-        <li class="<?php if (isset($contact)){ echo 'active';} ?>"><a href="contact">Contact</a></li>
-      </ul>
+<ul class="nav navbar-nav">
+	<li class="<?php if (isset($home)){ echo 'active';} ?>"><a href="home">Home</a></li>
+	<li class="<?php if (isset($contact)){ echo 'active';} ?>"><a href="contact">Contact</a></li>
+</ul>
 
 ```
 
