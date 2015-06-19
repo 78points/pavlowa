@@ -20,7 +20,7 @@ Starter HTML boilerplate application for web development with Bootstrap, Font Aw
 *   create page file in **/view** directory (exemple: /view/test.php )<br />
 *   add page to **$safe_pages** array in index.php line 14 
 ```javascript
-$safe_pages = array("home", "contact", "test" );
+$allowed = array("home", "contact", "test" );
 ```
 
 *   go to: **https://your-application/test** to view your page <br />
@@ -76,6 +76,15 @@ Set latitude and longitude in **/view/contact.php**
 var pos = new google.maps.LatLng( 53.2205654, -6.6593078);
 ```
 
+
+## Fake Loader
+To set background color, timer and loader type for Fake Loader update **/included/footer.php**
+
+```javascript
+timeToHide:1300, //timer
+spinner:"spinner2", // Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+bgColor:"#333", // background color
+```
 
 
 ## License

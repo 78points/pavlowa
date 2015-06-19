@@ -33,7 +33,7 @@ include('included/header.php');
 <div class="clear" style="height:20px;"></div>
 
 
-<div class="col-sm-6 tiles-holder">
+<div class="col-sm-12">
 <h4>Features</h4>
 
 <ul>
@@ -54,7 +54,7 @@ include('included/header.php');
 - create page file in <strong>/view</strong> directory (exemple: /view/test.php )<br />
 - add page to <strong>$safe_pages</strong> array in index.php line 14 
 <pre>
-$safe_pages = array("home", "contact", "test" );
+$allowed = array("home", "contact", "test" );
 </pre>
 - go to: <strong>https://your-application/test</strong> to view your page <br />
 </p>
@@ -126,8 +126,17 @@ var pos = new google.maps.LatLng( 53.2205654, -6.6593078);
 </p>
 
 
+<div class="clear" style="height:20px;"></div>
 
+<h4>Fake Loader</h4>
 
+<p>To set background color, timer and loader type for Fake Loader update <strong>/included/footer.php</strong><br />
+
+<pre>
+timeToHide:1300, //timer
+spinner:"spinner2", // Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+bgColor:"#333", // background color
+</pre>
 
 
 </div>
