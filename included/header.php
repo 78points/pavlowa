@@ -14,7 +14,6 @@
 <!-- Bootstrap -->
 <link href="<?php echo $mainUrl;?>/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo $mainUrl;?>/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<link href="<?php echo $mainUrl;?>/css/vipliko_theme.css" rel="stylesheet">
 <link href="<?php echo $mainUrl;?>/css/style.css" rel="stylesheet">
 
 

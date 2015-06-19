@@ -5,13 +5,13 @@
 
   //data to be pass to the view
 $mainUrl = "http://localhost/pavlowa/"; // replace for correct url
-$var1 = 'Sample Variable';
+$var1 = 'starter HTML boilerplate application';
  
   #split the path by '/'
    $params = explode("/", $request);
 
 
-  $safe_pages = array("home", "contact", "theme" );
+  $safe_pages = array("home", "contact" );
    
   if(in_array($params[0], $safe_pages)) {
     include('view/'.$params[0].".php");

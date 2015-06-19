@@ -5,6 +5,13 @@ Starter HTML boilerplate application for web development with Bootstrap, Font Aw
 
 ## Features
 
+*   [Bootstrap](http://getbootstrap.com/)
+*   [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+*   [Fake Loader](http://codepen.io/vivinantony)
+*   Contact form with Ajax
+*   Pretty URLs
+
+
 
 ## Instalation
 

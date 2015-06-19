@@ -9,7 +9,7 @@
 
 
 <div class="footer" style="text-align:center;">
-<a href="#" target="_blank">Company Name</a>
+<a href="http://78points.com" target="_blank">78points.com</a>
 </div><!-- footer -->
 
 
@@ -25,13 +25,7 @@
 <script src="<?php echo $mainUrl;?>/js/fakeLoader.min.js"></script>
 <script type="text/javascript">
 $("#fakeLoader").fakeLoader({
-
-<?php if($params[0] != 'contact'){ ?>
 timeToHide:1300, 
-<?php }else{ ?>
-timeToHide:1, 
-<?php }?>
-
 zIndex:"999",
 spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
 bgColor:"#333",
@@ -42,7 +36,6 @@ bgColor:"#333",
 </script>
 
 
-<script src="<?php echo $mainUrl;?>/js/jquery.cycle2.js"></script>
 
 <script src="<?php echo $mainUrl;?>/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="<?php echo $mainUrl;?>/js/custom.js"></script>

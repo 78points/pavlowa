@@ -25,48 +25,36 @@ include('included/header.php');
 
 
 
-<div class="col-sm-12 tiles-holder">
-<div class="col-sm-12 tiles white">
-
-<div class="box-title">
-<h4>Message <span class="semi-bold">boxes</span></h4>
-<div class="clear"></div>
+<div class="col-sm-12">
+<h2><i class="fa fa-rocket"></i> Pawlowa <small><span class="bol"><?php echo $var1;?></span></small></h2>
+<p>Starter HTML boilerplate application for web development with Bootstrap, Font Awesome and pretty URLs.</p>
 </div>
-
-<h2>Pawlowa <small><span class="bol">Starter HTML boilerplate application</span></small></h2>
-<p>Sample variable passed from index: <?php echo $var1;?></p>
-</div><!-- tiles-->
-</div><!-- tiles-holder -->
 
 
 
 
 
 <div class="col-sm-6 tiles-holder">
-<div class="col-sm-12 tiles white">
-
-<div class="box-title">
 <h4>Features</h4>
-<div class="clear"></div>
-</div>
 
-<p>yiuyiuyiuy</p>
-</div><!-- tiles-->
-</div><!-- tiles-holder -->
+<ul>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+<li><a href="http://codepen.io/vivinantony">Fake Loader</a></li>
+<li><a href="contact">Contact form with Ajax</a></li>
+<li>Pretty URLs</li>
+</ul>
+
+</div>
 
 
 
 <div class="col-sm-6 tiles-holder">
-<div class="col-sm-12 tiles white">
-
-<div class="box-title">
 <h4>Installation</h4>
-<div class="clear"></div>
-</div>
 
 <p>yiuyiuyiuy</p>
-</div><!-- tiles-->
-</div><!-- tiles-holder -->
+
+</div>
 
 
 
