@@ -18,19 +18,11 @@ $response = 'invalid';
 }else{
 //E-mail is valid
 $from = 'XXXXXXXXXX'; // sender
-$subject = 'XXXXXXXXXX Website Contact Form';
+$subject = 'Website Contact Form';
 $message = "Name: $fornName $fornSurname \nEmail: $emailAddress \nPhone Number: $fornPhone \nMessage: $fornMessage ";
 $message = wordwrap($message, 70);
 
 if (mail($masterEmail,$subject,$message,"From: $from\n")) {
-
-//=============
- $userMessage = "Many thanks for registering your details. We will be in touch.\n
-XXXXXXXXXX ";  
-    
-mail($emailAddress ,'XXXXXXXXXX',  $userMessage,"From: $from\n");    //send mail to user
-//===========
-	
 $response = 'saved';
 }else{
 $response = 'email_error';
@@ -38,7 +30,6 @@ $response = 'email_error';
 
 
 }
-
 
 
 }else{

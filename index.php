@@ -1,10 +1,10 @@
 <?php
-  #remove the directory path we don't want
+  // http://localhost/pavlowa/ - sample location of the files in the server
+  // remove the directory path we don't want 
   $request  = str_replace("/pavlowa/", "", $_SERVER['REQUEST_URI']);
 
-
-  //data to be pass to the view
-$mainUrl = "http://localhost/pavlowa/"; // replace for correct url
+//data to be pass to the view
+$mainUrl = "http://localhost/pavlowa/"; // replace with correct url
 $var1 = 'starter HTML boilerplate application';
  
   #split the path by '/'
@@ -23,3 +23,4 @@ $var1 = 'starter HTML boilerplate application';
     include("view/404.php");
   }
 ?>
+

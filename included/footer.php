@@ -3,7 +3,7 @@
 
 
 
-<div class="clear" style="height:200px;"></div>
+<div class="clear" style="height:20px;"></div>
 
 <hr />
 
@@ -12,6 +12,7 @@
 <a href="http://78points.com" target="_blank">78points.com</a>
 </div><!-- footer -->
 
+<div class="clear" style="height:20px;"></div>
 
 </div><!-- main_container -->
 

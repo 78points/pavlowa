@@ -15,10 +15,70 @@ Starter HTML boilerplate application for web development with Bootstrap, Font Aw
 
 ## Instalation
 
+*   copy files in to server directory <br />
+*   update **index.php** line 4 and linve 7 with correct details <br />
+*   create page file in **/view** directory (exemple: /view/test.php )<br />
+*   add page to **$safe_pages** array in index.php line 14 
+```javascript
+$safe_pages = array("home", "contact", "test" );
+```
+
+*   go to: **https://your-application/test** to view your page <br />
+
+
+## Defaults
+
+*   header for page are located in **/included** folder, to include in page add:
+```php
+$home = true; //set home menu to current
+include('included/header.php'); 
+```
+
+*   footer for page are located in **/included** folder, to include in page add:
+```php
+include('included/footer.php'); 
+```
+
+*   default view: **/view/home.php**
+*   default 404 view: **/view/404.php**  
 
 
 
+## Menu
 
+This is how you can set current menu item to active state:
+
+```php
+
+      <ul class="nav navbar-nav">
+        <li class="<?php if (isset($home)){ echo 'active';} ?>"><a href="home">Home</a></li>
+        <li class="<?php if (isset($contact)){ echo 'active';} ?>"><a href="contact">Contact</a></li>
+      </ul>
+
+```
+
+
+## Contact form
+
+For contact form to work fill out tows details in **/included/subscribe.php** 
+
+```javascript
+$masterEmail = 'XXXXXXXXXX'; // email address you wish to post form to
+$from = 'XXXXXXXXXX'; // sender
+```
+
+
+## Google map
+
+Set latitude and longitude in **/view/contact.php** 
+
+```javascript
+var pos = new google.maps.LatLng( 53.2205654, -6.6593078);
+```
+
+
+
+## License
 
 MIT License http://opensource.org/licenses/MIT
 
