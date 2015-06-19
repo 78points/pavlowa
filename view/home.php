@@ -28,7 +28,7 @@ include('included/header.php');
 
 
 <div class="col-sm-12">
-<h4>Features</h4>
+<h4>Included</h4>
 
 <ul>
 <li><a href="http://getbootstrap.com/">Bootstrap</a></li>

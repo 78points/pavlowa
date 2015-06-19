@@ -3,7 +3,7 @@
 Starter HTML boilerplate application for web development with Bootstrap, Font Awesome and pretty URLs
 
 
-## Features
+## Included
 
 *   [Bootstrap](http://getbootstrap.com/)
 *   [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
